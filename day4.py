@@ -41,8 +41,7 @@ def part2():
         total += mults[i]
         i += 1
     
-    print(mults)
-    print(total)
+    print(f"Part 2 Total: {total}")
 
 def part1():
     total = 0
@@ -62,4 +61,5 @@ def part1():
 
     print(f"Part 1 Total: {total}")
 
-part2()
+part1() # Should be 18519
+part2() # Should be 11787590
